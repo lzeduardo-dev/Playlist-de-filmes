@@ -1,7 +1,7 @@
 :root{
   --primary-color: #0f172a;;
   --light-primary:#006aa8;
-  --lightest-color:#e9ebd5;
+  --lightest-color:#e1e2cc;
   --secondary-color:#774936;
   --light-secondary:#b97e64;
 }
@@ -112,4 +112,10 @@ header h2 i {
 #search-button:hover {
   background-color: #043A5A;
   cursor: pointer;
+}
+
+main > h2{
+  color: var(--primary-color);
+  text-align: center;
+  padding-top: 10px;
 }
