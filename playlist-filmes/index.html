@@ -1,19 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Playlist de Filmes</title>
-    <link rel="stylesheet" href="./src/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./src/modal.css">
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css">
-  <style>
-    .notie-container {
-      box-shadow: none;
-    }
-  </style>
-
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./src/modal.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/notie/dist/notie.min.css"
+    />
+    <style>
+      .notie-container {
+        box-shadow: none;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -21,30 +27,48 @@
       <section id="search-container">
         <div class="movie-name-wrapper">
           <label for="movie-name">Nome:</label>
-          <input type="text" id="movie-name">
+          <input type="text" id="movie-name" />
         </div>
-        <div class  ="movie-year-wrapper">
+        <div class="movie-year-wrapper">
           <label for="movie-year">Ano:</label>
-          <input type="number" id="movie-year">
+          <input type="number" id="movie-year" />
         </div>
         <button id="search-button"><i class="bi bi-search"></i></button>
       </section>
     </header>
     <main>
       <h2 class="start-list">Comece agora sua lista de filmes!</h2>
-      <section id="movie-list"></section>
       <article id="modal-overlay">
-        <section id="modal-background"></section>
-        <section id="modal-container">
-          <h2 id="movie-title">titulo do filme</h2>
-        </section>  
+      <section id="modal-background"></section>
+      <section id="modal-container">
+          <h2 id="movie-title">The Godfather - 1972</h2>
+          <section id="modal-body">
+            <img
+              id="movie-poster"
+              src="https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_SX300.jpg"
+              alt="Poster do filme"
+            />
+            <div id="movie-info">
+              <h3 id="movie-plot">
+                The aging patriarch of an organized crime dynasty transfers
+                control of his clandestine empire to his reluctant son.
+              </h3>
+              <div id="movie-cast">
+                <h3 id="movie-cast">Marlon Brando, Al Pacino, James Caan</h3>
+              </div>
+              <div>
+                <h4>Gênero:</h4>
+                <h5 id="movie-genre">Crime, Drama</h5>
+              </div>
+            </div>
+          </section>
+          <section id="modal-footer ">
+            <button id="add-to-list">Adicionar à lista</button>
+          </section>
+        </section>
       </article>
-
     </main>
     <script src="./src/script.js"></script>
     <script src="https://unpkg.com/notie"></script>
-    
   </body>
 </html>
-
-      
