@@ -45,6 +45,7 @@ http://localhost:5173
 A aplicação utiliza a OMDb API. Para utilizá-la, você precisa obter uma chave de API gratuita no site oficial e incluí-la no seu código como variável de ambiente (recomenda-se o uso de .env com Vite).
 
 📸 Capturas de Tela
+<img width="1470" alt="Captura de Tela 2025-06-01 às 03 20 25" src="https://github.com/user-attachments/assets/fc7c2383-0437-4e8d-9b45-670245b8aa8d" />
 
 
 📦 Build
