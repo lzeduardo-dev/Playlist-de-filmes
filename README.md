@@ -27,8 +27,8 @@ Este projeto é uma aplicação web que permite aos usuários buscar filmes e vi
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   git clone https://github.com/lzeduardo-dev/Playlist-de-filmes.git
+   cd Playlist-de-filmes
 
 Instale as dependências:
 
